@@ -1,218 +1,222 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML5 Web App</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Web App</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="header">
+
+<header class="header">
     <div class="logo">
-      <img src="img/html5-logo.png" alt="Logo HTML5">
-      <div>
-        <h1>HTML5</h1>
-        <p>Base del desarrollo web moderno</p>
-      </div>
+        <img src="img/html5-logo.png" alt="Logo HTML5">
+        <div>
+            <h1>HTML5</h1>
+            <p>Base del desarrollo web moderno</p>
+        </div>
     </div>
+
     <nav class="nav">
-      <a href="                   
-      <a href="#que-es">¿Qué es?</a>
-      <a href="                           
-      <a href="#etiquetas">Etiquetas</a>
-      <a href="                          
-      <a href="#formularios">Formularios</a>
-      <a href="                           
-      <a href="#conclusion">Conclusión</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#que-es">¿Qué es?</a>
+        <a href="#estructura">Estructura</a>
+        <a href="#etiquetas">Etiquetas</a>
+        <a href="#semantica">Semántica</a>
+        <a href="#formularios">Formularios</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#conclusion">Conclusión</a>
     </nav>
-  </header>
+</header>
 
-  <main>
+<main>
+
     <section id="inicio" class="hero">
-      <div class="hero-text">
-        <span class="badge">Tema de la práctica</span>
-        <h2>Aprendiendo HTML5</h2>
-        <p>
-          Esta página está dedicada a explicar qué es HTML5, su estructura, sus etiquetas
-          y su importancia en el desarrollo web. El contenido será completado por el alumno.
-        </p>
-        <a href="                                 
-      </div>
-      <div class="hero-imagen">
-      </div>
+        <div class="hero-texto">
+            <span class="badge">Tema de la práctica</span>
+            <h2>Aprendiendo HTML5</h2>
+            <p>
+                Esta página está dedicada a explicar qué es HTML5, su estructura, sus etiquetas
+                y su importancia en el desarrollo web.
+            </p>
+            <a href="#que-es" class="btn">Comenzar</a>
+        </div>
+
+        <div class="hero-imagen">
+        </div>
     </section>
-<section id="que-es" class="seccion">
-  <article class="card">
-    <h2>¿Qué es HTML5?</h2>
-    <img src="img/html5-logo.png" alt="Logo HTML5">
-    <p>
-      Aquí el alumno debe explicar qué es HTML5, para qué sirve y por qué es importante en la creación de páginas web.
-    </p>
-  </article>
-</section>
 
-<section id="estructura" class="seccion">
-  <article class="card">
-    <h2>Estructura básica de HTML5</h2>
-    <img src="img/estructura.png" alt="Estructura HTML5">
-    <div class="codigo">
-      &lt;!DOCTYPE html&gt;
-      &lt;html&gt;
-      &lt;head&gt;
-      &lt;title&gt;Mi página&lt;/title&gt;
-      &lt;/head&gt;
-      &lt;body&gt;
-      &lt;/body&gt;
-      &lt;/html&gt;
-    </div>
-    <p>
-      En esta parte el alumno debe explicar la función de doctype, html, head y body.
-    </p>
-  </article>
-</section>
+    <section id="que-es" class="seccion">
+        <article class="card">
+            <h2>¿Qué es HTML5?</h2>
+            <img src="img/html5-logo.png" alt="Logo HTML5">
+            <p>
+                HTML5 es la quinta versión del lenguaje de marcado de hipertexto (HTML), el estándar que se utiliza para crear y estructurar el contenido de las páginas web. No es un lenguaje de programación, sino de marcado, lo que significa que se utiliza para definir la estructura y el significado del contenido mediante etiquetas. Sirve para organizar textos, imágenes, videos, enlaces y otros elementos, y es la base sobre la que se construyen todos los sitios web. Es importante porque permite crear sitios más modernos, accesibles y compatibles con diferentes dispositivos, además de integrar de forma nativa multimedia y nuevas funcionalidades sin necesidad de plugins externos.
+            </p>
+        </article>
+    </section>
 
-<section id="etiquetas" class="seccion">
-  <article class="card">
-    <h2>Etiquetas principales</h2>
-    <img src="img/etiquetas.png" alt="Etiquetas HTML5">
-    <div class="grid">
-      <div class="mini-card">
-<h3><h1> - h6</h1></h3>
-<p>Aquí el alumno explica los títulos.</p>
-</div>
-<div class="mini-card">
-<h3><p></h3>
-<p>Aquí el alumno explica los párrafos.</p>
-</div>
-<div class="mini-card">
-<h3><img></h3>
-<p>Aquí el alumno explica las imágenes.</p>
-</div>
-<div class="mini-card">
-<h3><a></h3>
-<p>Aquí el alumno explica los enlaces.</p>
-</div>
-<div class="mini-card">
-<h3><button></h3>
-<p>Aquí el alumno explica los botones.</p>
-</div>
-<div class="mini-card">
-<h3><ul / ol / li></h3>
-<p>Aquí el alumno explica las listas.</p>
-</div>
-</article>
-</section>
+    <section id="estructura" class="seccion">
+        <article class="card">
+            <h2>Estructura básica de HTML5</h2>
+            <img src="img/estructura.png" alt="Estructura HTML5">
+            <div class="codigo">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Mi página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </div>
+            <p>
+                <strong>!DOCTYPE html:</strong> Indica al navegador qué versión de HTML se está usando, en este caso HTML5.<br>
+                <strong>html:</strong> Es la etiqueta raíz que contiene todo el código de la página.<br>
+                <strong>head:</strong> Aquí se coloca información que no se ve directamente en la página, como el título, la codificación de caracteres y enlaces a estilos o scripts.<br>
+                <strong>body:</strong> Es el área visible de la página, donde se coloca todo el contenido que verá el usuario: textos, imágenes, videos, etc.
+            </p>
+        </article>
+    </section>
 
-<section id="semantica" class="seccion">
-<article class="card">
-<h2>HTML5 semántico</h2>
-<img src="img/semantica.png" alt="HTML5 semántico">
-<div class="grid">
-<div class="mini-card">
-<h3>header</h3>
-<p>Espacio para que el alumno describa el encabezado.</p>
-</div>
-<div class="mini-card">
-<h3>nav</h3>
-<div>
-  <h3>nav</h3>
-  <p>Espacio para que el alumno describa la navegación.</p>
-</div>
+    <section id="etiquetas" class="seccion">
+        <article class="card">
+            <h2>Etiquetas principales</h2>
+            <img src="img/etiquetas.png" alt="Etiquetas HTML5">
+            <div class="grid">
+                <div class="mini-card">
+                    <h3>h1 - h6</h3>
+                    <p>Son etiquetas para definir títulos y subtítulos, siendo h1 el más importante y grande, y h6 el menor.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>p</h3>
+                    <p>Se usa para escribir párrafos de texto normal.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>img</h3>
+                    <p>Sirve para insertar imágenes en la página, usando el atributo src para indicar la ruta de la imagen.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>a</h3>
+                    <p>Permite crear enlaces o hipervínculos hacia otras páginas o secciones, usando el atributo href.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>button</h3>
+                    <p>Crea botones interactivos que el usuario puede presionar.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>ul / ol / li</h3>
+                    <p>Se usan para crear listas: ul para listas sin orden (con viñetas), ol para listas ordenadas (con números) y li para cada elemento de la lista.</p>
+                </div>
+            </div>
+        </article>
+    </section>
 
-<div class="mini-card">
-  <h3>main</h3>
-  <p>Espacio para que el alumno describa el contenido principal.</p>
-</div>
+    <section id="semantica" class="seccion">
+        <article class="card">
+            <h2>HTML5 semántico</h2>
+            <img src="img/semantica.png" alt="HTML5 semántico">
+            <div class="grid">
+                <div class="mini-card">
+                    <h3>header</h3>
+                    <p>Representa el encabezado de la página o de una sección, generalmente contiene logotipos, títulos y menús.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>nav</h3>
+                    <p>Se utiliza para agrupar los enlaces de navegación del sitio.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>main</h3>
+                    <p>Indica el contenido principal y más importante de la página.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>section</h3>
+                    <p>Define una sección temática dentro del documento, agrupando contenido relacionado.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>article</h3>
+                    <p>Representa un contenido independiente y completo, como un artículo, una noticia o un post.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>footer</h3>
+                    <p>Es el pie de página, donde suele ir información de contacto, derechos de autor, etc.</p>
+                </div>
+            </div>
+        </article>
+    </section>
 
-<div class="mini-card">
-  <h3>section</h3>
-  <p>Espacio para que el alumno describa las secciones.</p>
-</div>
+    <section id="formularios" class="seccion">
+        <article class="card">
+            <h2>Formularios en HTML5</h2>
+            <img src="img/formularios.png" alt="Formularios HTML5">
+            <p>
+                Los formularios son elementos que permiten al usuario ingresar datos y enviarlos al servidor para ser procesados. Algunas etiquetas importantes son:<br>
+                <strong>form:</strong> Contiene todo el formulario.<br>
+                <strong>label:</strong> Describe qué dato se debe ingresar en un campo.<br>
+                <strong>input:</strong> Campo para introducir datos, puede ser de diferentes tipos como texto, email, contraseña, etc.<br>
+                <strong>textarea:</strong> Área para escribir textos más largos.<br>
+                <strong>select:</strong> Menú desplegable para elegir una opción.<br>
+                <strong>button:</strong> Botón para enviar o resetear el formulario.
+            </p>
 
-<div class="mini-card">
-  <h3>article</h3>
-  <p>Espacio para que el alumno describa los artículos.</p>
-</div>
+            <form class="demo-form">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ejemplo">
 
-<div class="mini-card">
-  <h3>footer</h3>
-  <p>Espacio para que el alumno describa el pie de página.</p>
-</div>
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" placeholder="ejemplo@email.com">
 
-</div>
-</article>
-</section>
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" rows="4" placeholder="Escribe aquí..."></textarea>
 
-<section id="formularios" class="seccion">
-<article class="card">
-  <h2>Formularios en HTML5</h2>
-  <img src="img/formularios.png" alt="Formularios HTML5">
-  <p>
-    Aquí el alumno debe investigar y explicar qué son los formularios y cuáles son
-    algunas etiquetas y elementos como form, label, input, textarea, select y button.
-  </p>
+                <button type="button">Enviar</button>
+            </form>
+        </article>
+    </section>
 
-  <form class="demo-form">
-    <label for="nombre">Nombre</label>
-    <input type="text" id="nombre" placeholder="Ejemplo">
+    <section id="multimedia" class="seccion">
+        <article class="card">
+            <h2>Multimedia en HTML5</h2>
+            <p>
+                HTML5 permite integrar contenido multimedia de forma sencilla y nativa, sin necesidad de programas adicionales.
+            </p>
 
-    <label for="correo">Correo</label>
-  </form>
-</article>
-</section>
-<section id="contacto" class="seccion">
-  <article>
-    <form>
-      <input type="email" id="correo" placeholder="ejemplo@email.com">
-      <label for="comentario">Comentario</label>
-      <textarea id="comentario" rows="4" placeholder="Escribe aquí..."></textarea>
-      <button type="button">Enviar</button>
-    </form>
-  </article>
-</section>
+            <div class="grid">
+                <div class="mini-card">
+                    <h3>Imágenes</h3>
+                    <p>Se usa la etiqueta img, con atributos como src (ruta de la imagen) y alt (texto descriptivo).</p>
+                </div>
+                <div class="mini-card">
+                    <h3>Audio</h3>
+                    <p>La etiqueta audio permite reproducir archivos de sonido directamente en el navegador.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>Video</h3>
+                    <p>Con la etiqueta video se pueden reproducir videos sin plugins externos.</p>
+                </div>
+                <div class="mini-card">
+                    <h3>Accesibilidad</h3>
+                    <p>El atributo alt en las imágenes es muy importante porque describe la imagen para personas que no pueden verla, mejorando la accesibilidad del sitio.</p>
+                </div>
+            </div>
+        </article>
+    </section>
 
-<section id="multimedia" class="seccion">
-  <article class="card">
-    <h2>Multimedia en HTML5</h2>
-    <p>
-      En esta sección el alumno puede investigar y explicar cómo HTML5 permite trabajar con imágenes, audio y video.
-    </p>
-    <div class="grid">
-      <div class="mini-card">
-        <h3>Imágenes</h3>
-        <p>Explicar la etiqueta img y sus atributos.</p>
-      </div>
-      <div class="mini-card">
-        <h3>Audio</h3>
-        <p>Investigar la etiqueta audio.</p>
-      </div>
-      <div class="mini-card">
-        <h3>Video</h3>
-        <p>Investigar la etiqueta video.</p>
-      </div>
-      <div class="mini-card">
-        <h3>Accesibilidad</h3>
-        <p>Explicar la importancia del atributo alt.</p>
-      </div>
-    </div>
-  </article>
-</section>
-
-<section id="conclusion" class="seccion">
-<article class="card">
-  <h2>Conclusión</h2>
-  <p>
-    Aquí el alumno debe redactar una conclusión sobre la importancia de HTML5 en el desarrollo web.
-  </p>
-  <p><strong>Alumno: </strong> Escribe aquí tu nombre</p>
-  <p><strong>Materia: </strong> Desarrollo de Aplicaciones Móviles</p>
-</article>
-</section>
+    <section id="conclusion" class="seccion">
+        <article class="card">
+            <h2>Conclusión</h2>
+            <p>
+                En conclusión, HTML5 es fundamental en el desarrollo web actual porque ofrece una estructura clara, semántica y moderna para crear sitios web. Facilita la organización del contenido, mejora la accesibilidad y permite integrar multimedia y formularios de manera eficiente. Conocer y usar correctamente sus etiquetas y características es esencial para cualquier persona que quiera dedicarse al desarrollo web, ya que es la base sobre la que se construyen todas las aplicaciones y páginas que usamos hoy en día.
+            </p>
+            <p><strong>Alumno:</strong> [Escribe aquí tu nombre]</p>
+            <p><strong>Materia:</strong> Desarrollo de Aplicaciones Móviles</p>
+        </article>
+    </section>
 
 </main>
 
 <footer class="footer">
-  <p>Práctica HTML5 • Submódulo 2</p>
+    <p>Práctica HTML5 • Submódulo 2</p>
 </footer>
 
 <script src="js/app.js"></script>
